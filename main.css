@@ -1,0 +1,89 @@
+.navbar{ background:  black }
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: grab;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: none; color: gray; }
+
+.navbar-collapse{
+    justify-content: flex-start;
+    padding-left: 25px;
+   }
+ 
+
+
+ body {
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/12/mountain-bike-11-728x410.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}  
+
+
+   .features {
+     padding: 100px 50px;
+     position: fixed;
+     margin-left: 800px;
+     
+   }
+
+   .img-fluid {
+     padding: 20px;
+     
+}
+
+.description{
+  position: absolute;
+  text-align: end;
+  top: 30%;
+  margin: 20px 10px 20px 600px;
+  padding: 2em;
+    
+}
+.description h1{
+ color:#F97300;
+}
+
+.description p{
+ color:limegreen;
+ font-size: 20px;
+ width: 65%;
+ line-height: 1.5;
+ text-align: center;
+ margin-left: 20px;
+ padding: 0 25px
+}
+
+.description button{
+  border:1px  solid #F97300;
+  background:gray;
+  color:#fff;
+ }
+
+footer {
+  text-align: center;
+  background-color: DarkSalmon;
+  color: black;
+  font-size: 14px;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  opacity: 75%;
+}
+
+
+footer ul li {
+  display: inline-block;
+  padding: 20px 10px;
+  width: 100px;
+  text-decoration: none;
+  justify-content: flex-start;
+
+} 
+
+
